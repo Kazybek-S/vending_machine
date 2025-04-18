@@ -1,0 +1,14 @@
+git init
+git add .
+git commit -m "Initial commit"
+git checkout -b home_work_25
+git add src/Main.java
+git commit -m "Updated Main.java and added necessary files"
+git add src/payment/CashPayment.java
+git commit -m "Added CashPayment class for cash payment method"
+git add src/payment/PaymentMethod.java
+git commit -m "Created PaymentMethod interface"
+git push origin home_work_25
+git checkout master
+git merge home_work_25
+git push origin master
